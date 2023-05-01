@@ -1,0 +1,93 @@
+.sidebar {
+  min-height: 100vh !important;
+  background-color: rgb(34, 31, 31);
+}
+.logo {
+  width: 100%px;
+  margin-left: 30%;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.sidebar h5 {
+  padding: 1.5em 0em;
+  color: rgb(255, 255, 255);
+}
+.nav-list {
+  list-style: none;
+  padding: 0px 25px;
+}
+.nav-list .list-item a {
+  color: rgb(255, 255, 255);
+  padding: 10px 5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.nav-list span h6 {
+  color: rgba(0, 0, 0, 0.7);
+  display: inline;
+  font-weight: 700;
+  display: flex;
+}
+.nav-list .list-item-admin .fa {
+  margin-right: 10px;
+}
+.nav-list .list-item-admin .list-span {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 0px 0.5em;
+  font-weight: 900;
+  border-radius: 50px;
+}
+.nav-list .list-item-admin.active,
+.nav-list .list-item-admin.active span,
+.nav-list .list-item-admin.active i,
+.nav-list .list-item-admin.active h6 {
+  color: rgba(255, 255, 255, 1) !important;
+  background-color: rgb(209, 178, 42) !important;
+}
+.nav-list .list-item-admin:hover,
+.nav-list .list-item-admin:hover i,
+.nav-list .list-item-admin:hover span,
+.nav-list .list-item-admin:hover h6 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(209, 178, 42);
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-list .list-item-admin.active:hover,
+.nav-list .list-item-admin.active:hover i,
+.nav-list .list-item-admin.active:hover span,
+.nav-list .list-item-admin.active:hover h6 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(209, 178, 42) !important;
+}
+
+.admin-btn {
+  padding: 10px 20px;
+  margin: 10px 70px;
+  border: none;
+  background-color: rgb(62, 107, 202);
+  color: white;
+}
+.admin-btn:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-items h6 {
+    display: none;
+  }
+  .logo {
+    width: 30px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+  .text-center {
+    display: none;
+  }
+  .admin-btn {
+    display: none;
+  }
+}

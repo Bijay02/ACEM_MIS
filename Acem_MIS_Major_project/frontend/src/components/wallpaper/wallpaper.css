@@ -1,0 +1,68 @@
+.wallpaper {
+  margin-left: 5px !important;
+  margin-bottom: 5px !important;
+}
+.wall_image {
+  height: 25vh;
+  margin: 0px;
+  background-image: url("../../assets/advancedcollege.jpg");
+  background-size: cover !important;
+  background-position: center !important; 
+}
+.wallpaper .text {
+  border-radius: 0px;
+  max-height: 10vh;
+  background-color: white;
+  padding: 0px 30px;
+}
+
+.wallpaper .text img {
+  width: 153.6px;
+  height: 144px;
+  position: relative;
+  bottom: 100px;
+  background-color: white;
+  border: 3px solid white;
+  object-fit: cover;
+}
+.wallpaper .text .list {
+  list-style: none;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wallpaper .text .list li {
+  margin: 1em auto;
+  padding: 0em 4em;
+  border-right: 2px solid black;
+}
+.wallpaper .text .list li span {
+  margin: 0px;
+  font-size: 0.7em;
+  font-family: "Playfair Display";
+}
+.wallpaper .text .list li h6 {
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 900;
+  font-family: "Oxygen";
+}
+.image-upload > input {
+  display: none;
+}
+.wallpaper .text .list li:last-child {
+  border-right: 0px solid rgb(255, 255, 255);
+}
+.listname{
+  font-size:13px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 900;
+  font-family: "Oxygen";
+}
+.logout_btn {
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  background: rgb(209, 178, 42);
+}

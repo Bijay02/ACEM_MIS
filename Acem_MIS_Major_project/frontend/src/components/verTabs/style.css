@@ -1,0 +1,22 @@
+.vertab
+{
+    background-color:white;
+     padding:40px 45px;
+     color:rgb(0, 0, 0);
+     margin-left:5px !important;
+}
+.vertab ul
+{
+    list-style: none;
+}
+.vertab ul li
+{
+    line-height: 2rem;
+    height:4rem;
+    font-family: 'Playfair Display'
+}
+.vertab ul li u
+{
+    font-weight: 400;
+    font-family: 'Oxygen'
+}

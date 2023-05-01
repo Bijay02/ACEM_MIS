@@ -1,0 +1,10 @@
+.No_student_found {
+  background-color: rgb(255, 255, 255);
+  width: 955px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px;
+  border-left: 5px solid rgb(197, 23, 23);
+  margin-bottom: 10px;
+}

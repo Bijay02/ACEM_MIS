@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.addEvent{
+  display: flex;
+  overflow: hidden;
+}
+.sidebar {
+  flex: 1;
+ width: 100%;
+}
+.main_container {
+  padding: 20px 50px;
+  flex: 5;
+  /* margin-left: 280px; */
+  
+}
+.event_form{
+  padding: 40px 40px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  height: 95vh;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.event_form h1 {
+  text-align: center;
+}
+.event_info {
+  display: flex;
+  flex-direction: column;
+}
+.event_info input {
+  width: 400px;
+  height: 50px;
+}
+.event_info textarea{
+  height: 7rem;
+}
+
+.event_button button{
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(62, 107, 202);
+  color: white;
+}
+.photoupload{
+  display: flex;
+  flex-direction: column;
+  
+}
+.photoupload input{
+  border: none;
+}
+.prevEvent_h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+  background-color: black;
+  padding: 10px 10px;
+  color: white;
+  border-left: 5px solid rgb(62, 107, 202);
+}
+.PreviousEvents{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  background-color: #fff;
+  height: 100%;
+  overflow: auto;
+}
+.insideEvents{
+  overflow: auto;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(62, 107, 202);
+  border-radius: 10px;
+}

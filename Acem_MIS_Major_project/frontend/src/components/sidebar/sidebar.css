@@ -1,0 +1,64 @@
+.sidebar {
+  min-height: 100% !important;
+  background-color: white;
+}
+.logo {
+  width: 100px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.sidebar h5 {
+  padding: 1.5em 0em;
+  color: rgb(64, 113, 126);
+}
+.nav-list {
+  list-style: none;
+  padding: 0px 25px;
+}
+.nav-list .list-item a {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px 5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.nav-list span h6 {
+  color: rgba(0, 0, 0, 0.7);
+  display: inline;
+  font-weight: 700;
+  display: flex;
+}
+.nav-list .list-item .fa {
+  margin-right: 10px;
+}
+.nav-list .list-item .list-span {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 0px 0.5em;
+  font-weight: 900;
+  border-radius: 50px;
+}
+.nav-list .list-item.active,
+.nav-list .list-item.active span,
+.nav-list .list-item.active i,
+.nav-list .list-item.active h6 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(209, 178, 42);
+}
+.nav-list .list-item:hover,
+.nav-list .list-item:hover i,
+.nav-list .list-item:hover span,
+.nav-list .list-item:hover h6 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(209, 178, 42);
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-list .list-item.active:hover,
+.nav-list .list-item.active:hover i,
+.nav-list .list-item.active:hover span,
+.nav-list .list-item.active:hover h6 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(71, 68, 75);
+}

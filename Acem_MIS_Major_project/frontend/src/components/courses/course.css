@@ -1,0 +1,20 @@
+.courseModule {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+
+  }
+  .courseModule h5{
+    text-decoration: underline;
+    /* height: auto; */
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 20px ;
+  }
+  .courseModule ol li{
+    margin-top: 15px;
+
+  }

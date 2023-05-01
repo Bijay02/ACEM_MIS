@@ -1,0 +1,51 @@
+.event{
+    display: flex;
+    overflow: hidden;
+}
+.sidebar {
+    flex: 1;
+    min-height: 100%;
+  }
+.mainContainer{
+    display: flex;
+    padding: 20px 80px;
+    flex: 5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+}
+.singleEvent_box{
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.eventImage img{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+.eventInfo h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.eventInfo h5{
+    color:gray ;
+}
+.eventInfo h6{
+    margin-top: 20px;
+    color:gray ;
+    text-decoration: underline;
+}
+.eventInfo p{
+    color:gray ;
+}
+.eventinfo h4{
+    font-size: 10px;
+    margin-top: 20px;
+    color:rgb(112, 111, 111) ;
+}

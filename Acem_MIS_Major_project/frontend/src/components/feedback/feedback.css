@@ -1,0 +1,31 @@
+.feedback{
+  background-color: white;
+  margin-left: 5px;
+  /* margin-bottom: 5px; */
+  padding: 20px 25px;
+}
+.feedback_form input{
+  display: flex;
+  width: 300px;
+  height: 40px;
+  /* mar
+  gin-top
+  : 10px; */
+}
+.feedback_form textarea{
+  display: flex;
+  width: 300px;
+  height: 100px;
+}
+.feedback_form input:focus{
+  outline: none;
+}
+
+
+.form_btn{
+  margin-top: 10px;
+  border: none;
+  padding: 10px 20px;
+  background: rgb(209, 178, 42);
+  color:#fff;
+}

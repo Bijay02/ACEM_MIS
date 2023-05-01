@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.main_container {
+  display: flex;
+  padding: 20px 45px;
+  flex: 5;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.bttns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.studentInfo {
+  padding: 40px;
+  width: 1000px;
+  height: 620px;
+  background-color: #fff;
+  display: flex;
+  gap: 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.stdName {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+.stdName h1 {
+  font-size: 30px;
+}
+.stdName button {
+  border: none;
+  padding: 7px 7px;
+  background-color: rgb(62, 107, 202);
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+}
+.del button {
+  background-color: rgb(221, 29, 29);
+}
+.stdName button:focus {
+  outline: none;
+}
+
+.profileImage img {
+  height: 500px;
+  object-fit: cover;
+  border: 10px solid black;
+}
+.basicInfo {
+  /* display: flex; */
+  flex-direction: column;
+}
+.idEmail {
+  /* display: flex; */
+  gap: 20px;
+}
+.idEmail p {
+  font-size: 15px;
+  color: gray;
+}
+.stdFaculty {
+  /* display: flex; */
+  gap: 20px;
+}
+.stdFaculty p {
+  font-size: 15px;
+  color: gray;
+}

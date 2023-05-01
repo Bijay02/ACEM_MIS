@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.Student_Batch {
+  display: flex;
+  overflow: hidden;
+}
+.sidebar {
+  flex: 1;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 45px;
+  flex: 5;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.batch{
+  display: flex;
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+.newbatch{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}

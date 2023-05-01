@@ -1,0 +1,41 @@
+.timeline {
+  background-color: white;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 20px 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timetable .time div {
+  border-right: 2px solid black;
+}
+.timetable .course {
+  align-items: center;
+}
+.timetable .course h6 {
+  font-weight: 700;
+}
+.timetable .course p {
+  font-size: 0.8em;
+  align-self: center;
+}
+.timetable{
+  display: flex;
+  flex-direction: row;
+}
+.routine{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.course{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.course p{
+  text-transform: capitalize;
+  text-align: justify;
+  margin-left: 20px;
+}
